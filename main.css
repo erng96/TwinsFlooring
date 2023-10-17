@@ -1,0 +1,94 @@
+
+body {
+    background:linear-gradient(rgba(112, 111, 121, 0.8), rgba(112, 111, 121, 0.8)), url("/media/twins\ flooring\ logo.jpg ");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 15px; 
+}
+.container {
+    position: relative;
+    right: 12%;
+    left: 12%;
+    max-width: 75%;
+    font-family: 'Sedgwick Ave Display', cursive'SpaceMono', monospace, sans-serif;
+
+}
+p{
+    font-size: 1.9rem;
+}
+#About{
+    margin-bottom: 15rem;
+}
+
+#Main_Banner {
+    mix-blend-mode: multiply;
+    height: 10.5rem;
+}
+
+h1{
+    bottom: 2.5rem;
+    position: relative;
+    display: inline;
+    margin: 0%;
+    color: hsla(0, 75%, 30%, 0.884);
+    font-size: 3.4rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(192, 192, 192, 0.034);
+    cursor: pointer;
+    position:relative;
+}
+
+nav a{
+    flex-grow: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2rem;
+    color: #000;
+}
+
+a:hover {
+    color:blue;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.photo-section {
+    margin-top: 0rem;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+    border: solid rgb(173, 169, 169) 2px;
+}   
+.photo-section div{
+    border: 1.5rem silver solid;
+}
+.photo-section img {
+width: 100%;
+
+}
+
+
+@media (max-width: 47rem) {
+    .photo-section{
+            grid-template-columns:repeat(1,1fr);
+        }
+    }
+
+
+ul {
+    background-color: beige;
+    gap: 3.4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
